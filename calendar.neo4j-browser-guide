@@ -21,7 +21,7 @@
       <h3>Day 1</h3>
       <p class="lead">How quickly does the depth increase?</p>
       <p>Count the number of times a depth measurement increases from the previous measurement.</p>
-      <p><a href="http://">Read the story of Day 1</a>.</p>
+      <p><a href="https://adventofcode.com/2021/day/1">Read the story of Day 1</a>.</p>
     </div>
     <div class="col-sm-9">
       <figure>
@@ -39,6 +39,24 @@
   
   </slide>
 
+
+  <slide class="row-fluid">
+    <div class="col-sm-3">
+      <h3>Day 1</h3>
+      <p class="lead">Part 2</p>
+      <p>Count the number of times the sum of measurements in a three-measurment sliding window increases from the previous sum.</p>
+      <p><a href="https://adventofcode.com/2021/day/1#part2">Read about Day 1, Part 2</a>.</p>
+    </div>
+    <div class="col-sm-9">
+      <figure>
+        <pre class="pre-scrollable code runnable">RETURN size($depthMeasurements) as answer
+        </pre>
+        <figcaption>Use the query parameter to calculate the answer. (This query is an example that provides the wrong answer)</figcaption>
+      </figure>
+
+    </div>
+  
+  </slide>
 
 
 </carousel>

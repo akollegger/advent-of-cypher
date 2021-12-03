@@ -1,0 +1,44 @@
+<carousel class="deck container-fluid">
+  <slide class="row-fluid">
+    <div class="col-sm-3">
+      <h3>Advent of Code, <br/>in Cypher</h3>
+      <p class="lead">A puzzle a day, solved in Cypher</p>
+    </div>
+    <div class="col-sm-3">
+      <p>
+        The <a href="https://adventofcode.com/">Advent of Code</a> is &OpenCurlyDoubleQuote;an Advent calendar of small programming puzzles for a 
+        variety of skill sets and skill levels that can be solved in any programming language you like.&CloseCurlyDoubleQuote;
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <p>Let's solve them in Cypher.
+      </p>
+    </div>
+  </slide>
+
+  <slide class="row-fluid">
+    <div class="col-sm-3">
+      <h3>Day 1</h3>
+      <p class="lead">How quickly does the depth increase?</p>
+      <p>Count the number of times a depth measurement increases from the previous measurement.</p>
+      <p><a href="http://">Read the story of Day 1</a>.</p>
+    </div>
+    <div class="col-sm-9">
+      <figure>
+        <pre class="pre-scrollable code runnable">:param depthMeasurements: [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
+        </pre>
+        <figcaption>Example puzzle input stored as query parameter named depthMeasurements.</figcaption>
+      </figure>
+      <figure>
+        <pre class="pre-scrollable code runnable">RETURN size($depthMeasurements) as answer
+        </pre>
+        <figcaption>Use the query parameter to calculate the answer. (This query is an example that provides the wrong answer)</figcaption>
+      </figure>
+
+    </div>
+  
+  </slide>
+
+
+
+</carousel>
